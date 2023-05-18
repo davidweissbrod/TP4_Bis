@@ -21,8 +21,8 @@ public class HomeController : Controller
 
     public IActionResult DetallePais(string pais)
     {
-        foreach(Pais item in listaPaises){
-            if(pais = nombre) ViewBag.Pais = pais;
+        foreach(Pais item in listaPaises.Info){
+            if(pais = nombre.Pais) ViewBag.Pais = pais;
         }
         return View("detallePais");
     }

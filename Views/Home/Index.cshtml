@@ -2,17 +2,16 @@
     ViewData["Title"] = "Home Page";
 }
 <link rel="detallePais" href="detallePais.cshtml">
-<div class="banderas">
- <table>
+<table>
  <tr>
     @for(int i = 0; i < ViewBag.listaPaises.Count; i++){
-        <th><a href = "@Url.Action('detallePais', new (nombre = ViewBag.Pais[i].nombre))">Detalles del pais</a></th>
+        <th><a href = "@Url.Action('detallePais', new {nombre = ViewBag.Pais[i].nombre})">Detalles del pais</a></th>
     }
  </tr>
  <tr>
     @for(int i = 0; < ViewBag.listaPaises.Count; i++){
         <td><img src = "@ViewBag.Pais[i].imgBandera" alt = "Imagenes"></td>
     } 
- </tr>
- </table>
-</div>
+ </tr> 
+</table>
+

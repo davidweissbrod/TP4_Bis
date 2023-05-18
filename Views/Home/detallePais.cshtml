@@ -1,3 +1,15 @@
-@foreach(Pais item in listaPaises){
-    
-}
+<ul>
+    <li>
+        <h3>Nombre: @ViewBag.Pais.nombre</h3>
+    </li>
+    <li>
+        <h3>Poblacion: @ViewBag.Pais.poblacion</h3>
+    </li>
+    <li>
+        <h3>Fecha Independencia: @ViewBag.Pais.fechaIndependencia.ToShortDateString()</h3>
+    </li>
+    <li>
+        <h3>Atractivo turistico: @ViewBag.Pais.atractivosTuristicos</h3>
+    </li>
+</ul>
+<img src = "img/@ViewBag.Pais.imgBandera" alt = "Bandera elegida">

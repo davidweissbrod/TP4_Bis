@@ -1,0 +1,8 @@
+Z:\TP4_Bis\obj\Debug\net7.0\TP4_Bis.csproj.AssemblyReference.cache
+Z:\TP4_Bis\obj\Debug\net7.0\TP4_Bis.GeneratedMSBuildEditorConfig.editorconfig
+Z:\TP4_Bis\obj\Debug\net7.0\TP4_Bis.AssemblyInfoInputs.cache
+Z:\TP4_Bis\obj\Debug\net7.0\TP4_Bis.AssemblyInfo.cs
+Z:\TP4_Bis\obj\Debug\net7.0\TP4_Bis.csproj.CoreCompileInputs.cache
+Z:\TP4_Bis\obj\Debug\net7.0\TP4_Bis.MvcApplicationPartsAssemblyInfo.cache
+Z:\TP4_Bis\obj\Debug\net7.0\TP4_Bis.RazorAssemblyInfo.cache
+Z:\TP4_Bis\obj\Debug\net7.0\TP4_Bis.RazorAssemblyInfo.cs

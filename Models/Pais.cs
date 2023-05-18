@@ -1,11 +1,13 @@
-public static class Pais{
+using System.Collections.Generic;
+
+public class Pais{
     public static string nombre{get; set;}
     public static string imgBandera {get; set;}
     public static int poblacion{get; set;}
-    public static Datetime fechaIndependencia{get; set;}
+    public static DateTime fechaIndependencia{get; set;}
     public static string atractivosTuristicos {get; set;}
 
-    public static Pais(string nom, string imgBan, int pob, Datetime fi, string aT){
+    public Pais(string nom, string imgBan, int pob, DateTime fi, string aT){
         nombre = nom;
         imgBandera = imgBan;
         poblacion = pob;
