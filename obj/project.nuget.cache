@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FHj4UcecIC4Ni3wugFME1iVxLV4kTMdf+Uk8+sbjyukv6hwsXuldtnf4pr7SKzwNS5eMqv7oRxu1Ho/unZ42Cg==",
+  "dgSpecHash": "YAF02PxHiCEAH8uoeg/Fcsp3D2b0reEkOjCbJT1yNH6pnKpEpqr0CE9AkSYeT0nVzJTotnjy3qWJkXzoxy0sow==",
   "success": true,
-  "projectFilePath": "Z:\\TP4_Bis\\TP4_Bis.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\David\\TP4_Bis\\TP4_Bis\\TP4_Bis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.2\\microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.2\\microsoft.netcore.app.host.win-x64.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

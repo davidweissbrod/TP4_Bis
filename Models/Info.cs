@@ -18,20 +18,18 @@ private static void InicializarLista(){
   listaPaises.Add(Alemania);
 }
 
-public static List<Pais> ListarPaises(){
-    foreach(Pais item in listaPaises){
-        InicializarLista();
+public static List<Pais> ListarPais(){
+        if(listaPaises.Count <= 0) InicializarLista();
         return listaPaises;
     }
-}
 
 public static string BuscarPais(string nom){
     foreach(Pais item in listaPaises){
-        if(listaPaises = nom){
-            return item.nombre;
+        if(Pais.nombre == nom){
+            return Pais.nombre;
         }
-        else return item.nombre;
     }
+    return null;
 }
 }
 

@@ -5,12 +5,12 @@
 <table>
  <tr>
     @for(int i = 0; i < ViewBag.listaPaises.Count; i++){
-        <th><a href = "@Url.Action('detallePais', new {nombre = ViewBag.Pais[i].nombre})">Detalles del pais</a></th>
+        <th><a href = '@Url.Action("DetallePais",new {pais = ViewBag.listaPaises[i].nombre})'>Detalles del país</a></th>
     }
  </tr>
  <tr>
-    @for(int i = 0; < ViewBag.listaPaises.Count; i++){
-        <td><img src = "@ViewBag.Pais[i].imgBandera" alt = "Imagenes"></td>
+    @for(int i = 0; i < ViewBag.listaPaises.Count; i++){
+        <td><img src = "@ViewBag.listaPaises[i].imgBandera" alt = "Imágenes"></td>
     } 
  </tr> 
 </table>

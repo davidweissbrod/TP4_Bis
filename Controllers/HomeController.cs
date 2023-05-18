@@ -15,15 +15,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.ListarPaises() = Info.ListarPaises();
+        ViewBag.listaPaises = Info.ListarPais();
         return View("Index");
     }
 
     public IActionResult DetallePais(string pais)
     {
-        foreach(Pais item in listaPaises.Info){
-            if(pais = nombre.Pais) ViewBag.Pais = pais;
-        }
+        ViewBag.Pais = Info.BuscarPais(pais);
         return View("detallePais");
     }
 
